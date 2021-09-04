@@ -27,13 +27,44 @@ or Run the `install.bat` File
 
 ⚠️ **Note: Never commit or share your Token or API Keys Publicly** ⚠️
 
-Make a `.env` Like This
+### `.env` config table
+| `.env` varriable | Description | Required |
+|---|---|---|
+| TOKEN | The bot token (Remember! The `TOKEN` is super secret) | :heavy_check_mark: |
+| PREFIX | The default bot prefix (eg. `!majo`) | :heavy_check_mark: |
+| ID | Your Discord Bot ID | :heavy_check_mark: |
+| AMEAPI | Your Amethyste api token | :heavy_check_mark: |
+| BRAINID | Your Brainshop AI Brain ID | :heavy_check_mark: |
+| MYSQL_DATABASE | Your MYSQL database name | :heavy_check_mark: |
+| MYSQL_HOST | Your MYSQL Host | :heavy_check_mark: |
+| MYSQL_USER | Your MYSQL user | :heavy_check_mark: |
+| MYSQL_PASSWORD | Your Brainshop AI Brain Key | :heavy_check_mark: |
+| GENIUS | Your genius API Key | :heavy_check_mark: |
+| DOMAIN | Your website domain (eg `https://example.com`)`*` | :x:/:heavy_check_mark: |
+| PORT| Your webiste port, (eg. `8008 `)`*`| :x:/:heavy_check_mark: |
+| DASHBOARD | The Web-Dashboard config value. (eg. `true/false`, default value: `false`)`*` | :x: |
+| SESSION_SECRET | Random sequence of words, letterss or numbers`*` | :x:/:heavy_check_mark: |
+| SECRET | The bot client secret (Remember! The `SECRET` value is Super-Secret)`*` | :x:/:heavy_check_mark: |
+| ANALYTICS | Google analytics tracking ID, used in Web-Dashboard`*` | :x: |
+| RECAPTCHA_KEY | Google recaptcha v2 key`*` | :x:/:heavy_check_mark: |
+| COOKIES | Your youtube cookies | :heavy_check_mark: |
+| CONTACT_WEBHOOK_ID | Your contact form webhook ID | :x: |
+| CONTACT_WEBHOOK_TOKEN | Your contact form webhook token | :x: |
+| STATUS_WEBHOOK_ID | Your status webhook ID | :x: |
+| STATUS_WEBHOOK_TOKEN | Your status webhook token | :x: |
+> - `*` = Required to run the web dashboard!
+
+### Example `.env` file
+<details><summary>Example <code>.env</code> file</summary>
+ 
+[`.env.example`](https://github.com/DarkThunder99/Bot-with-Dashboard/blob/master/.env.example)
+
 ```
 # Environment Config
 
 # Required
 TOKEN=YOUR_TOKEN_GOES_HERE
-PREFIX=>>
+PREFIX=!majo
 ID=YOUR_BOT_ID
 AMEAPI=YOUR_AMETHYSTE_API_TOKEN
 MYSQL_DATABASE=YOUR_MYSQL_DATABASE_NAME
@@ -57,9 +88,32 @@ PORT=YOUR_WEBSITE_PORT
 SESSION_SECRET=YOUR_SESSION_SECRET_(RANDOM_WORDS)
 SECRET=YOUR_BOT_CLIENT_SECRET
 ANALYTICS=YOUR_GOOGLE_TRACKING_ID
+# Note: !majo is the default prefix, you can change it later.
 ```
 
 ## ☄️ Starting the Bot
+
+
+### Dashboard hosting
+
+1. In `.env` file set the `DASHBOARD` config to `true` and assign the `PORT` eg. `8080`. ([See example `.env` file](#example-env-file))
+2. Fill dashboard config in (`config.js` and `.env`)
+3. Add the redirect uri here: https://discord.com/developers/applications/YOUR-BOT-ID/oauth2
+    * ```
+       https://your-domain.com
+       https://your-domain.com/callback
+       https://your-domain.com/dashboard
+       https://your-domain.com/login
+      ```
+4. Run `npm run dashboard` in your terminal
+5. If everyting is ok go to your dashboard in browser (eg. to `localhost:8000`)
+> Note: See the example [`.env` file below](#example-env-file)!
+
+##### Additional info
+> If you are hosting the site locally it is best to generate certificates for it. If you have them:
+> 1. Change `certs: false` & `localhost: false` values in `config.js` to true
+> 2. Place the `server.cert` & `server.key` certs in `/dashboard/certs/` directory
+
 
 Open Console and Type
 ```

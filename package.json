@@ -4,7 +4,7 @@
   "author": "",
   "main": "node index.js",
   "scripts": {
-    "start": "node dashboard-run.js",
+    "start": "npm-run-all --parallel bot dashboard",
     "bot": "node index.js",
     "dashboard": "node dashboard-run.js",
     "dev": "npm-run-all --parallel dev:bot dev:dashboard",

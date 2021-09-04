@@ -90,6 +90,7 @@ SECRET=YOUR_BOT_CLIENT_SECRET
 ANALYTICS=YOUR_GOOGLE_TRACKING_ID
 # Note: >> is the default prefix, you can change it later.
 ```
+<details><summary>Example <code>.env</code> file</summary>
 
 ## ☄️ Starting the Bot
 

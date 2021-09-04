@@ -64,7 +64,7 @@ or Run the `install.bat` File
 
 # Required
 TOKEN=YOUR_TOKEN_GOES_HERE
-PREFIX=!majo
+PREFIX=>>
 ID=YOUR_BOT_ID
 AMEAPI=YOUR_AMETHYSTE_API_TOKEN
 MYSQL_DATABASE=YOUR_MYSQL_DATABASE_NAME
@@ -88,7 +88,7 @@ PORT=YOUR_WEBSITE_PORT
 SESSION_SECRET=YOUR_SESSION_SECRET_(RANDOM_WORDS)
 SECRET=YOUR_BOT_CLIENT_SECRET
 ANALYTICS=YOUR_GOOGLE_TRACKING_ID
-# Note: !majo is the default prefix, you can change it later.
+# Note: >> is the default prefix, you can change it later.
 ```
 
 ## ☄️ Starting the Bot

@@ -1,4 +1,4 @@
-# 100-Commands-V2
+# Discord Bot with Dashboard
 
 
 ## Requirements

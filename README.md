@@ -55,7 +55,6 @@ or Run the `install.bat` File
 > - `*` = Required to run the web dashboard!
 
 ### Example `.env` file
-<details><summary>Example <code>.env</code> file</summary>
  
 [`.env.example`](https://github.com/DarkThunder99/Bot-with-Dashboard/blob/master/.env.example)
 
@@ -90,7 +89,6 @@ SECRET=YOUR_BOT_CLIENT_SECRET
 ANALYTICS=YOUR_GOOGLE_TRACKING_ID
 # Note: >> is the default prefix, you can change it later.
 ```
-<details><summary>Example <code>.env</code> file</summary>
 
 ## ☄️ Starting the Bot
 

@@ -33,20 +33,20 @@ or Run the `install.bat` File
 | TOKEN | The bot token (Remember! The `TOKEN` is super secret) | :heavy_check_mark: |
 | PREFIX | The default bot prefix (eg. `!majo`) | :heavy_check_mark: |
 | ID | Your Discord Bot ID | :heavy_check_mark: |
-| AMEAPI | Your Amethyste api token | :heavy_check_mark: |
-| BRAINID | Your Brainshop AI Brain ID | :heavy_check_mark: |
+| [AMEAPI](https://api.amethyste.moe/) | Your Amethyste api token | :heavy_check_mark: |
+| [BRAINID](https://brainshop.ai/) | Your Brainshop AI Brain ID | :heavy_check_mark: |
 | MYSQL_DATABASE | Your MYSQL database name | :heavy_check_mark: |
 | MYSQL_HOST | Your MYSQL Host | :heavy_check_mark: |
 | MYSQL_USER | Your MYSQL user | :heavy_check_mark: |
 | MYSQL_PASSWORD | Your Brainshop AI Brain Key | :heavy_check_mark: |
-| GENIUS | Your genius API Key | :heavy_check_mark: |
+| [GENIUS](https://genius.com/api-clients) | Your genius API Key | :heavy_check_mark: |
 | DOMAIN | Your website domain (eg `https://example.com`)`*` | :x:/:heavy_check_mark: |
 | PORT| Your webiste port, (eg. `8008 `)`*`| :x:/:heavy_check_mark: |
 | DASHBOARD | The Web-Dashboard config value. (eg. `true/false`, default value: `false`)`*` | :x: |
 | SESSION_SECRET | Random sequence of words, letterss or numbers`*` | :x:/:heavy_check_mark: |
 | SECRET | The bot client secret (Remember! The `SECRET` value is Super-Secret)`*` | :x:/:heavy_check_mark: |
 | ANALYTICS | Google analytics tracking ID, used in Web-Dashboard`*` | :x: |
-| RECAPTCHA_KEY | Google recaptcha v2 key`*` | :x:/:heavy_check_mark: |
+| [RECAPTCHA_KEY](https://www.google.com/recaptcha/admin/create) | Google recaptcha v2 key`*` | :x:/:heavy_check_mark: |
 | COOKIES | Your youtube cookies | :heavy_check_mark: |
 | CONTACT_WEBHOOK_ID | Your contact form webhook ID | :x: |
 | CONTACT_WEBHOOK_TOKEN | Your contact form webhook token | :x: |

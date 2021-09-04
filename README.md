@@ -32,7 +32,6 @@ Make a `.env` Like This
 # Environment Config
 
 # Required
-```
 TOKEN=YOUR_TOKEN_GOES_HERE
 PREFIX=>>
 ID=YOUR_BOT_ID

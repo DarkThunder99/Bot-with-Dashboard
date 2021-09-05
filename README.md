@@ -103,12 +103,12 @@ npm init -y && npm i --save-dev node@14 && npm config set prefix=$(pwd)/node_mod
 1. In `.env` file set the `DASHBOARD` config to `true` and assign the `PORT` eg. `8080`. ([See example `.env` file](#example-env-file))
 2. Fill dashboard config in (`config.js` and `.env`)
 3. Add the redirect uri here: https://discord.com/developers/applications/YOUR-BOT-ID/oauth2
-    * ```
+    ```
        https://your-domain.com
        https://your-domain.com/callback
        https://your-domain.com/dashboard
        https://your-domain.com/login
-      ```
+    ```
 4. Run `npm run dashboard` in your terminal
 5. If everyting is ok go to your dashboard in browser (eg. to `localhost:8000`)
 > Note: See the example [`.env` file below](#example-env-file)!

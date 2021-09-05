@@ -35,24 +35,24 @@ or Run the `install.bat` File
 | ID | Your Discord Bot ID | :heavy_check_mark: |
 | [AMEAPI](https://api.amethyste.moe/) | Your Amethyste api token | :heavy_check_mark: |
 | [BRAINID](https://brainshop.ai/) | Your Brainshop AI Brain ID | :heavy_check_mark: |
-| MYSQL_DATABASE | Your MYSQL database name | :heavy_check_mark: |
-| MYSQL_HOST | Your MYSQL Host | :heavy_check_mark: |
-| MYSQL_USER | Your MYSQL user | :heavy_check_mark: |
-| MYSQL_PASSWORD | Your Brainshop AI Brain Key | :heavy_check_mark: |
+| MYSQL_DATABASE | Your MYSQL Database Name | :heavy_check_mark: |
+| MYSQL_HOST | Your MYSQL Database Host | :heavy_check_mark: |
+| MYSQL_USER | Your MYSQL Database Username | :heavy_check_mark: |
+| MYSQL_PASSWORD | Your MYSQL Database Password | :heavy_check_mark: |
 | [GENIUS](https://genius.com/api-clients) | Your genius API Key | :heavy_check_mark: |
 | DOMAIN | Your website domain (eg `https://example.com`)`*` | :x:/:heavy_check_mark: |
 | PORT| Your webiste port, (eg. `8008 `)`*`| :x:/:heavy_check_mark: |
 | DASHBOARD | The Web-Dashboard config value. (eg. `true/false`, default value: `false`)`*` | :x: |
-| SESSION_SECRET | Random sequence of words, letterss or numbers`*` | :x:/:heavy_check_mark: |
-| SECRET | The bot client secret (Remember! The `SECRET` value is Super-Secret)`*` | :x:/:heavy_check_mark: |
-| ANALYTICS | Google analytics tracking ID, used in Web-Dashboard`*` | :x: |
+| SESSION_SECRET | The Bot Client Secret (Remember! The `SECRET` value is Super-Secret)`*` | :x:/:heavy_check_mark: |
+| SECRET | The Bot Client Secret (Remember! The `SECRET` value is Super-Secret)`*` | :x:/:heavy_check_mark: |
+| ANALYTICS | Google analytics tracking ID, used in Web-Dashboard | :x: |
 | [RECAPTCHA_KEY](https://www.google.com/recaptcha/admin/create) | Google recaptcha v2 key`*` | :x:/:heavy_check_mark: |
 | COOKIES | Your youtube cookies | :heavy_check_mark: |
-| CONTACT_WEBHOOK_ID | Your contact form webhook ID | :x: |
-| CONTACT_WEBHOOK_TOKEN | Your contact form webhook token | :x: |
-| STATUS_WEBHOOK_ID | Your status webhook ID | :x: |
-| STATUS_WEBHOOK_TOKEN | Your status webhook token | :x: |
-> - `*` = Required to run the web dashboard!
+| CONTACT_WEBHOOK_ID | Your contact form webhook ID | :heavy_check_mark: |
+| CONTACT_WEBHOOK_TOKEN | Your contact form webhook token | :heavy_check_mark: |
+| STATUS_WEBHOOK_ID | Your status webhook ID | :heavy_check_mark: |
+| STATUS_WEBHOOK_TOKEN | Your status webhook token | :heavy_check_mark: |
+> `*` = Required to run the web dashboard!
 
 ### Example `.env` file
  

@@ -31,7 +31,7 @@ or Run the `install.bat` File
 | `.env` varriable | Description | Required |
 |---|---|---|
 | TOKEN | The bot token (Remember! The `TOKEN` is super secret) | :heavy_check_mark: |
-| PREFIX | The default bot prefix (eg. `!majo`) | :heavy_check_mark: |
+| PREFIX | The default bot prefix (eg. `>>`) | :heavy_check_mark: |
 | ID | Your Discord Bot ID | :heavy_check_mark: |
 | [AMEAPI](https://api.amethyste.moe/) | Your Amethyste api token | :heavy_check_mark: |
 | [BRAINID](https://brainshop.ai/) | Your Brainshop AI Brain ID | :heavy_check_mark: |

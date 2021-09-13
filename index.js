@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 require("dotenv").config();
-const client = new Discord.Client({disableEveryone: true, allowedMentions: {repliedUser: false})
+const client = new Discord.Client({disableEveryone: true, allowedMentions: {repliedUser: false}})
 const chalk = require("chalk");
 const logs = require("discord-logs");
 const sql = require("./utilities/database");
